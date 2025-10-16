@@ -755,6 +755,7 @@ footer a:hover {
         padding: 0;
         font-family: sans-serif;
         width: 100vw;
+        margin-right: 0;
         /* margin-left: 3vw; */
     }
 
@@ -764,7 +765,7 @@ footer a:hover {
     }
 
     .popup-overlay {
-        width: 100vw;
+        width: 112vw;
         font-size: small;
     }
 
@@ -794,8 +795,9 @@ footer a:hover {
         flex-direction: column;
         height: auto;
         padding: 10px 20px;
-        width: 100vw;
+        width: 112vw;
         box-sizing: border-box;
+        margin-right: 0;
     }
 
     #logo {
@@ -806,7 +808,8 @@ footer a:hover {
     }
 
     .hero-section {
-        width: 100vw;
+        width: 112vw;
+        margin-right: 0;
     }
 
     nav a {
@@ -816,7 +819,7 @@ footer a:hover {
 
     .offers-section {
         /* margin-left: 15vw; */
-        margin: 0;
+        margin-right: 0;
     }
 
     .offer-card {
@@ -830,11 +833,11 @@ footer a:hover {
     }
 
     .menu-section {
-        margin: 0;
+        margin-right: 0;
     }
 
     .menu-section-details {
-        margin: 0;
+        margin-right: 0;
     }
 
     .menu-card:hover {
@@ -844,11 +847,11 @@ footer a:hover {
     }
 
     .location-section {
-        margin: 0;
+        margin-right: 0;
     }
 
     .orders-section {
-        margin: 0;
+        margin-right: 0;
     }
 
     .order-form {
