@@ -223,6 +223,7 @@ main {
     font-family: 'Berkshire Swash', serif;
     font-size: 46px;
     backdrop-filter: blur(10px);
+    width: 30%;
 }
 
 .popup-btn {
@@ -766,7 +767,13 @@ footer a:hover {
 
     .popup-overlay {
         width: 112vw;
+        height: 1825vh;
         font-size: small;
+    }
+
+    .popup-content {
+        width: 50%;
+        font-size: 24px;
     }
 
     .main-container {
