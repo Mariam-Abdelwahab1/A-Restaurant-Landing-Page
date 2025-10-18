@@ -1,0 +1,74 @@
+<img id="logo" src="images/logo.png" alt="Bella Vita">
+
+
+<img src="images/pizza-1179404_1280.jpg" alt="dish 1">
+<img src="images/pngtree-pork-bolognese-spaghetti-with-parmesan-cheese-image_15660833.jpg" alt="dish 2">
+<img src="images/Penne-Arrabbiata.jpg" alt="dish 3">
+
+<img src="images/bruschetta-887336_1280.jpg" alt="Bruschetta">
+
+<img src="images/salad-1934944_1920.jpg" alt="Caprese Salad">
+
+<img src="images/R.jpeg" alt="Arancini">
+
+<img src="images/soup-8021569_1280.jpg" alt="Minestrone">
+
+
+
+<img src="images/stock-photo-pizza-margarita-115926238.jpg" alt="Margherita">
+
+<img src="images/pizza-1179404_1280.jpg" alt="Halal Pepperoni">
+
+<img src="images/BBQ-Chicken-Pizza-13-of-19-1024x683.jpg" alt="BBQ Chicken">
+
+<img src="images/Vegie-Deight-Pizza-1.png" alt="Vegetarian Pizza">
+
+<img src="images/free-tasty-seafood-pizza-image_999195-235.jpg" alt="Seafood Pizza">
+
+
+
+<img src="images/Spaghetti-Alfredo.jpg" alt="Alfredo">
+
+<img src="images/Spaghetti-Bolognese-1024x585.jpg" alt="Bolognese">
+
+<img src="images/th.jpeg" alt="Carbonara">
+
+<img src="images/Penne-Arrabbiata.jpg" alt="Arrabbiata">
+
+<img src="images/Tagliatelle-ai-Gamberi.jpg" alt="Seafood Risotto">
+
+
+
+<img src="images/pollo-alla-griglia.jpg" alt="Pollo alla Griglia">
+
+<img src="images/Chicken-Parmigiana.jpg" alt="Chicken Parmigiana">
+
+<img src="images/new-years-eve-518032_1280.jpg" alt="Grilled Salmon">
+
+<img src="images/lasagna-1900529_1280.jpg" alt="Halal Beef Lasagna">
+
+<img src="images/seafood-risotto-39585-1.jpeg" alt="Seafood Risotto">
+
+
+
+<img src="images/tiramisu-8503073_1280.jpg" alt="Tiramisu">
+
+<img src="images/creamy-vegan-panna-cotta-dairy-free-fresh-and-light-dessert-thumb-12.jpg" alt="Panna Cotta">
+
+<img src="images/Traditional-Italian-Gelato-featured.jpg" alt="Gelato Italiano">
+
+<img src="images/ITqNOK2c-Free-Cannoli-at-BiCE-MAre(1)-1200x800.jpg" alt="Cannoli">
+
+<img src="images/Fruit-Tart.jpeg" alt="Fruit Tart">
+
+
+
+<img src="images/virgin-mojito-3.jpg" alt="Virgin Mojito">
+
+<img src="images/pumpkin-spice-latte-iced-coffee-background-generative-ai-free-photo.jpg" alt="Iced Coffee">
+
+<img src="images/Fresh-Juices.jpg" alt="Fresh Juices">
+
+<img src="images/Espresso2.jpg" alt="Espresso">
+
+<img src="images/coffee-431121_1280.jpg" alt="Latte Macchiato">
