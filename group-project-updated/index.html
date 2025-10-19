@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- WE use this linking to use the desired fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Playwrite+ES:wght@100..400&family=Story+Script&display=swap"
+        rel="stylesheet">
+    <!-- Linking CSS stylesheets  needed -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+
+    <!-- The page Title that will be shown -->
+    <title> Bella Vita - Italian Restaurant Landing Page </title>
+</head>
+
+<body>
+    <!-- A Responsive Landing Page For A Restaurant -->
+    <!-- POPUP Section -->
+    <div class="popup-overlay">
+        <div class="popup-content">
+            <h2>Welcome To Bella Vita!</h2>
+            <p>Our Special Offers are waiting for you🔥</p>
+            <span class="popup-btn">View Website</span>
+        </div>
+    </div>
+
+    <!-- HEADER Section -->
+    <header>
+        <a href="#Home"> <img id="logo" src="images/logo.png" alt="Bella Vita"> </a>
+        <!-- Nav BAR -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li class="dropdown">
+                    <a href="#menu">Menu ▾</a>
+                    <ul class="dropdown-content">
+
+                        <li><a href="#starters">Starters</a></li>
+                        <li><a href="#pizza">Pizza</a></li>
+                        <li><a href="#pasta">Pasta</a></li>
+                        <li><a href="#main">Main Dishes</a></li>
+                        <li><a href="#desserts">Desserts</a></li>
+                        <li><a href="#drinks">Drinks</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#location">Location</a></li>
+                <li><a href="#review">Review us</a></li>
+                <li><a href="#contact">Our Pages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-section" id="Home">
+            <div class="slider-container">
+                <div class="slider-images">
+                    <img src="images/pizza-1179404_1280.jpg" alt="dish 1">
+                    <img src="images/pngtree-pork-bolognese-spaghetti-with-parmesan-cheese-image_15660833.jpg"
+                        alt="dish 2">
+                    <img src="images/Penne-Arrabbiata.jpg" alt="dish 3">
+                </div>
+                <button class="prev-btn">
+                    < </button>
+                        <button class="next-btn">
+                            >
+                        </button>
+                        <div class="slider-dots">
+                        </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- OFFERS Section -->
+    <section id="offers" class="container my-5">
+        <h2 class="text-center mb-4">Special offers</h2>
+        <div id="countdown" class="countdown-wrapper">
+            <div class="time-box"><span id="days">00</span><small>day</small></div>
+            <div class="time-box"><span id="hours">00</span><small>hour</small></div>
+            <div class="time-box"><span id="minutes">00</span><small>miunte</small></div>
+            <div class="time-box"><span id="seconds">00</span><small>second</small></div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/offer1.png " class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title"> Pepperoni Pizza + Free Drink</h5>
+                        <p class="card-text">Order a Pepperoni pizza and get a free drink! Offer valid until the end of
+                            the week</p>
+                        <p class="text-danger"><del>150 EGP</del> <strong>110 EGP</strong></p>
+                        <a href="#" class="btn btn-success">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/offer2.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Creamy fettuccine pasta topped with grilled chicken, Parmesan, and fresh
+                            herbs — now with <strong>20% OFF</strong> for a limited time!
+                        </h5>
+                        <p class="card-text">Enjoy 20% OFF on your second Fettuccine pasta order — creamy, delicious,
+                            and irresistible!</p>
+                        <p class="text-danger"><del>200 EGP</del> <strong>170 EGP</strong></p>
+                        <a href="#" class="btn btn-success">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/offer3.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza & Pasta combo</h5>
+                        <p class="card-text">pizza & Pasta of your choice with a free drink</p>
+                        <p class="text-danger"><del>350 EGP</del> <strong>200 EGP</strong></p>
+                        <a href="#" class="btn btn-success">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- MENU Section - A Simple Version of the Menu - to see a conclusion with prices -->
+    <section class="menu-section" id="menu">
+        <div class="menu-header">
+            <!-- A MENU BANNER TO LET THE CUSTOMER KNOW A SUMMARY OF WHAT WE OFFER AND OUR PRICES -->
+            <span class="menu-banner">
+                <h2>🍽 Explore Our Delicious Menu</h2>
+                <p>From classic Italian dishes to modern favorites, all prepared with halal ingredients.</p>
+            </span>
+        </div>
+        <!-- TO INCLUDE THE MENU CATEGORIES -->
+        <div class="menu-wrapper">
+            <!-- A MENU CATEGORY -->
+            <div class="menu-category">
+                <h2>🥗 Starters</h2>
+                <ul>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Bruschetta al Pomodoro</strong>
+                            <span class="price">EGP 55</span>
+                        </div>
+                        <p>Toasted Italian bread topped with diced tomatoes, olive oil, and fresh basil.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row"">
+                            <strong>Caprese Salad</strong>
+                            <span class=" price">EGP 65</span>
+                        </div>
+                        <p>Sliced tomatoes with fresh mozzarella and basil, drizzled with extra virgin olive oil.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Arancini di Riso</strong>
+                            <span class="price">EGP 70</span>
+                        </div>
+                        <p>Crispy fried rice balls stuffed with cheese and mushrooms.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Minestrone Soup</strong>
+                            <span class="price">EGP 50</span>
+                        </div>
+                        <p>Traditional Italian vegetable soup with olive oil and herbs.</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- A MENU CATEGORY -->
+            <div class="menu-category">
+                <h2>🍕 Pizza</h2>
+                <ul>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Pizza Margherita</strong>
+                            <span class="price">EGP 120</span>
+                        </div>
+                        <p>Classic tomato sauce, mozzarella, and fresh basil.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Halal Pepperoni Pizza</strong>
+                            <span class="price">EGP 135</span>
+                        </div>
+                        <p>Smoked turkey slices as a halal alternative to pepperoni.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Chicken BBQ Pizza</strong>
+                            <span class="price">EGP 140</span>
+                        </div>
+                        <p>Grilled chicken, BBQ sauce, mozzarella, and red onions.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Vegetarian Delight Pizza</strong>
+                            <span class="price">EGP 125</span>
+                        </div>
+                        <p>Bell peppers, mushrooms, olives, and onions.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Seafood Pizza</strong>
+                            <span class="price">EGP 150</span>
+                        </div>
+                        <p>Shrimp and calamari with tomato sauce and cheese.</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- A MENU CATEGORY -->
+            <div class="menu-category">
+                <h2>🍝 Pasta</h2>
+                <ul>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Spaghetti Alfredo</strong>
+                            <span class="price">EGP 110</span>
+                        </div>
+                        <p>Creamy pasta with parmesan cheese.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Spaghetti Bolognese (Halal)</strong>
+                            <span class="price">EGP 125</span>
+                        </div>
+                        <p>Halal minced beef cooked in rich tomato sauce.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Pasta Carbonara (Halal)</strong>
+                            <span class="price">EGP 130</span>
+                        </div>
+                        <p>Creamy pasta with smoked turkey, egg, and cheese.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Penne Arrabbiata</strong>
+                            <span class="price">EGP 115</span>
+                        </div>
+                        <p>Spicy tomato sauce with garlic and dried red chili.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Tagliatelle ai Gamberi</strong>
+                            <span class="price">EGP 145</span>
+                        </div>
+                        <p>Wide pasta with shrimp in a lemon cream sauce.</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- A MENU CATEGORY -->
+            <div class="menu-category">
+                <h2>🍖 Main Dishes</h2>
+                <ul>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Pollo alla Griglia</strong>
+                            <span class="price">EGP 135</span>
+                        </div>
+                        <p>Grilled chicken marinated in Italian herbs.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Chicken Parmigiana</strong>
+                            <span class="price">EGP 140</span>
+                        </div>
+                        <p>Breaded chicken breast topped with mozzarella and tomato sauce.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Grilled Salmon with Lemon Butter</strong>
+                            <span class="price">EGP 175</span>
+                        </div>
+                        <p>Grilled salmon served with lemon butter sauce.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Beef Lasagna (Halal)</strong>
+                            <span class="price">EGP 145</span>
+                        </div>
+                        <p>Layers of halal minced beef, béchamel, and pasta.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Seafood Risotto</strong>
+                            <span class="price">EGP 160</span>
+                        </div>
+                        <p>Creamy risotto with shrimp and calamari.</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- A MENU CATEGORY -->
+            <div class="menu-category">
+                <h2>🍮 Desserts</h2>
+                <ul>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Halal Tiramisu Cups</strong>
+                            <span class="price">EGP 65</span>
+                        </div>
+                        <p>Individual cups with biscuit, coffee, and cream (alcohol-free).</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Panna Cotta</strong>
+                            <span class="price">EGP 60</span>
+                        </div>
+                        <p>Sweetened cream dessert served with berry or mango sauce.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Gelato Italiano</strong>
+                            <span class="price">EGP 50</span>
+                        </div>
+                        <p>Authentic Italian ice cream in assorted flavors.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Cannoli</strong>
+                            <span class="price">EGP 55</span>
+                        </div>
+                        <p>Fried pastry shells filled with vanilla ricotta cream.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Fruit Tart</strong>
+                            <span class="price">EGP 60</span>
+                        </div>
+                        <p>Mini tart filled with vanilla cream and fresh fruits.</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- A MENU CATEGORY -->
+            <div class="menu-category">
+                <h2>🥤 Drinks</h2>
+                <ul>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Virgin Mojito</strong>
+                            <span class="price">EGP 45</span>
+                        </div>
+                        <p>Mint, lime, and soda - refreshing and alcohol-free.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Iced Coffee</strong>
+                            <span class="price">EGP 40</span>
+                        </div>
+                        <p>Chilled Italian-style coffee.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Fresh Juices</strong>
+                            <span class="price">EGP 35</span>
+                        </div>
+                        <p>Orange / Mango / Pomegranate.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Espresso</strong>
+                            <span class="price">EGP 30</span>
+                        </div>
+                        <p>Strong and bold Italian coffee shot.</p>
+                    </li>
+                    <li>
+                        <!-- A MENU ITEM TO BE INCLUDED IN THIS MENU CATEGORY -->
+                        <div class="item-row">
+                            <strong>Latte Macchiato</strong>
+                            <span class="price">EGP 40</span>
+                        </div>
+                        <p>Italian-style milk coffee with a shot of espresso.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU Section With Details -->
+    <section class="menu-section-details" id="starters">
+        <h2>🥗 Starters</h2>
+        <!-- DEFINNIG THE CONTAINER WHICH WE WILL USE TO SCROLL THROUGH THE MENU CARDS in this section -->
+        <div class="scroll-container">
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/bruschetta-887336_1280.jpg" alt="Bruschetta">
+                <h3>Bruschetta al Pomodoro</h3>
+                <p>Toasted bread with tomatoes, garlic, basil, and olive oil.</p>
+                <button onclick="location.href='#'">Add To Cart</button>
+
+            </div>
+
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/salad-1934944_1920.jpg" alt="Caprese Salad">
+                <h3>Caprese Salad</h3>
+                <p>Fresh mozzarella, tomatoes, basil, and olive oil.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/R.jpeg" alt="Arancini">
+                <h3>Arancini di Riso</h3>
+                <p>Fried rice balls stuffed with cheese and mushrooms.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/soup-8021569_1280.jpg" alt="Minestrone">
+                <h3>Minestrone Soup</h3>
+                <p>Traditional Italian vegetable soup with herbs.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+
+    </section>
+    <section class="menu-section-details" id="pizza">
+        <h2>🍕 Pizza</h2>
+        <!-- DEFINNIG THE CONTAINER WHICH WE WILL USE TO SCROLL THROUGH THE MENU CARDS in this section -->
+        <div class="scroll-container">
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/stock-photo-pizza-margarita-115926238.jpg" alt="Margherita">
+                <h3>Pizza Margherita</h3>
+                <p>Tomato sauce, mozzarella, and basil.</p>
+
+                <button onclick="location.href='# '">Add To Cart</button>
+
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/pizza-1179404_1280.jpg" alt="Halal Pepperoni">
+                <h3>Halal Pepperoni Pizza</h3>
+                <p>Smoked turkey slices instead of pork pepperoni.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/BBQ-Chicken-Pizza-13-of-19-1024x683.jpg" alt="BBQ Chicken">
+                <h3>Chicken BBQ Pizza</h3>
+                <p>Grilled chicken, BBQ sauce, mozzarella, and onions.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Vegie-Deight-Pizza-1.png" alt="Vegetarian Pizza">
+                <h3>Vegetarian Delight Pizza</h3>
+                <p>Bell peppers, mushrooms, olives, and onions.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/free-tasty-seafood-pizza-image_999195-235.jpg" alt="Seafood Pizza">
+                <h3>Seafood Pizza</h3>
+                <p>Shrimp and calamari with tomato sauce and cheese.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section-details" id="pasta">
+        <h2>🍝 Pasta</h2>
+        <!-- DEFINNIG THE CONTAINER WHICH WE WILL USE TO SCROLL THROUGH THE MENU CARDS in this section -->
+        <div class="scroll-container">
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Spaghetti-Alfredo.jpg" alt="Alfredo">
+                <h3>Spaghetti Alfredo</h3>
+                <p>Creamy Parmesan sauce over spaghetti.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <div class="menu-card">
+                <!-- DEFINNIG MENU CARD -->
+                <img src="images/Spaghetti-Bolognese-1024x585.jpg" alt="Bolognese">
+                <h3>Spaghetti Bolognese</h3>
+                <p>Halal ground beef in tomato sauce.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <div class="menu-card">
+                <!-- DEFINNIG MENU CARD -->
+                <img src="images/th.jpeg" alt="Carbonara">
+                <h3>Pasta Carbonara</h3>
+                <p>Smoked turkey, creamy egg sauce, and cheese.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Penne-Arrabbiata.jpg" alt="Arrabbiata">
+                <h3>Penne Arrabbiata</h3>
+                <p>Spicy tomato sauce with garlic and chili.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Tagliatelle-ai-Gamberi.jpg" alt="Seafood Risotto">
+                <h3>Tagliatelle ai Gamberi</h3>
+                <p>Wide pasta with shrimp in a lemon cream sauce.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section-details" id="main">
+        <h2>🍖 Main Dishes</h2>
+        <!-- DEFINNIG THE CONTAINER WHICH WE WILL USE TO SCROLL THROUGH THE MENU CARDS in this section -->
+        <div class="scroll-container">
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/pollo-alla-griglia.jpg" alt="Pollo alla Griglia">
+                <h3>Pollo alla Griglia</h3>
+                <p>Grilled chicken marinated in Italian herbs.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Chicken-Parmigiana.jpg" alt="Chicken Parmigiana">
+                <h3>Chicken Parmigiana</h3>
+                <p>Breaded chicken breast topped with tomato sauce and mozzarella.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/new-years-eve-518032_1280.jpg" alt="Grilled Salmon">
+                <h3>Grilled Salmon</h3>
+                <p>Salmon fillet grilled and served with lemon butter sauce.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/lasagna-1900529_1280.jpg" alt="Halal Beef Lasagna">
+                <h3>Halal Beef Lasagna</h3>
+                <p>Layers of pasta, halal minced beef, béchamel, and cheese.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/seafood-risotto-39585-1.jpeg" alt="Seafood Risotto">
+                <h3>Seafood Risotto</h3>
+                <p>Creamy risotto with shrimp and calamari.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section-details" id="desserts">
+        <h2>🍮 Desserts</h2>
+        <!-- DEFINNIG THE CONTAINER WHICH WE WILL USE TO SCROLL THROUGH THE MENU CARDS in this section -->
+        <div class="scroll-container">
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/tiramisu-8503073_1280.jpg" alt="Tiramisu">
+                <h3>Halal Tiramisu Cups</h3>
+                <p>Alcohol-free coffee cream layered dessert.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/creamy-vegan-panna-cotta-dairy-free-fresh-and-light-dessert-thumb-12.jpg"
+                    alt="Panna Cotta">
+                <h3>Panna Cotta</h3>
+                <p>Sweet cream dessert with berry or mango sauce.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Traditional-Italian-Gelato-featured.jpg" alt="Gelato Italiano">
+                <h3>Gelato Italiano</h3>
+                <p>Authentic Italian ice cream in assorted flavors.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/ITqNOK2c-Free-Cannoli-at-BiCE-MAre(1)-1200x800.jpg" alt="Cannoli">
+                <h3>Cannoli</h3>
+                <p>Fried pastry shells filled with vanilla ricotta cream.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Fruit-Tart.jpeg" alt="Fruit Tart">
+                <h3>Fruit Tart</h3>
+                <p>Mini tart with vanilla cream and fresh fruits.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section-details" id="drinks">
+        <h2>🥤 Drinks</h2>
+        <!-- DEFINNIG THE CONTAINER WHICH WE WILL USE TO SCROLL THROUGH THE MENU CARDS in this section -->
+        <div class="scroll-container">
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/virgin-mojito-3.jpg" alt="Virgin Mojito">
+                <h3>Virgin Mojito</h3>
+                <p>Mint, lemon, and soda – alcohol-free.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/pumpkin-spice-latte-iced-coffee-background-generative-ai-free-photo.jpg"
+                    alt="Iced Coffee">
+                <h3>Iced Coffee</h3>
+                <p>Chilled Italian-style coffee.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Fresh-Juices.jpg" alt="Fresh Juices">
+                <h3>Fresh Juices</h3>
+                <p>Orange / Mango / Pomegranate.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/Espresso2.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Strong Italian coffee shot.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+            <!-- DEFINNIG MENU CARD -->
+            <div class="menu-card">
+                <img src="images/coffee-431121_1280.jpg" alt="Latte Macchiato">
+                <h3>Latte Macchiato</h3>
+                <p>Italian-style milk coffee with a shot of espresso.</p>
+                <button onclick="location.href='# '">Add To Cart</button>
+            </div>
+    </section>
+
+    <!-- LOCATION Section -->
+    <section id="location" class="location-section">
+        <!--  <h2>📍 Find Us</h2>
+        <p>123 Belle Vita Street, Cairo, Egypt</p>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.79374092289!2d31.23351231502425!3d30.04441998188152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f7d24f0c47b%3A0x6d90e9d6d1b7c12!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2sus!4v1634591461936!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>-->
+        <div class="header">
+            <img src="images/logo.jpg" alt="Bella Vita Logo">
+
+        </div>
+
+        <!-- Contact Info -->
+        <div class="info-row">
+            <div class="info-item">
+                <strong>Address:</strong><br>
+                123 Bella Street
+            </div>
+            <div class="info-item">
+                <strong>Country:</strong><br>
+                Italy
+            </div>
+            <div class="info-item">
+                <strong>City:</strong><br>
+                Florence
+            </div>
+            <div class="info-item">
+                <strong>Phone:</strong><br>
+                +39 055 123456
+            </div>
+            <div class="info-item">
+                <strong>Email:</strong><br>
+                info@bellavita.com
+            </div>
+        </div>
+
+        <!-- Embedded Google Map with Link Overlay -->
+        <div class="map-container" onclick="window.open('https://www.google.com/maps/place/Florence,+Italy', '_blank')">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28888.704073094678!2d11.255813!3d43.769560!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a540f6b6bc729%3A0xa00fefc2f74a480!2sFlorence%2C%20Italy!5e0!3m2!1sen!2sit!4v1630000000000!5m2!1sen!2sit"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </section>
+
+    <!-- Review Section -->
+    <section id="review" class="review-section">
+        <div class="review-banner">
+            <h2> Place Your review</h2>
+            <p>Help us to Enhance our services and leave your Footprint </p>
+        </div>
+        <!-- Review FORM Section -->
+        <form class="review-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="01012345678" required>
+            </div>
+            <div class="form-group">
+                <label for="Rating">Rate our services</label>
+                <input type="text" id="address" placeholder="Your Rate from 1 to 5" required>
+            </div>
+
+            <div class="form-group">
+                <label for="notes"> Notes</label>
+                <textarea id="notes" rows="4" placeholder="Any extra instructions?"></textarea>
+            </div>
+            <button type="submit">Submit </button>
+        </form>
+    </section>
+
+    <!-- PAGE FOOTER Section & CONTACT Section at the same time -->
+    <footer id="contact">
+        <h2>Our Social Media</h2>
+        <div class="social-icons">
+            <a href="facebook.com"> Facebook </a> |
+            <a href="instagram.com"> Instagram </a> |
+            <a href="twitter.com"> Twitter </a>
+        </div>
+        <p>© 2025 Bella Vita. All rights reserved.</p>
+    </footer>
+
+    <!-- LINKING THE JS SCRIPT FILE -->
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
